@@ -12,7 +12,6 @@ public class GroundTileSpawner : MonoBehaviour
         nextSpawnPosition = temp.transform.GetChild(1).transform.position;
     }
 
-    // Update is called once per frame
     void Start()
     {
         for (int i = 0; i < 15; i++){
